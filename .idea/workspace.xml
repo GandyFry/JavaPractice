@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="f853eb8a-56d8-4fae-844c-3f9ea85842e9" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="f853eb8a-56d8-4fae-844c-3f9ea85842e9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +97,10 @@
         </entry>
       </map>
     </option>
+<<<<<<< Updated upstream
+=======
+    <option name="oldMeFiltersMigrated" value="true" />
+>>>>>>> Stashed changes
   </component>
   <component name="WindowStateProjectService">
     <state width="1358" height="168" key="GridCell.Tab.0.bottom" timestamp="1602277082678">
