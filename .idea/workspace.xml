@@ -1,46 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="f853eb8a-56d8-4fae-844c-3f9ea85842e9" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="f853eb8a-56d8-4fae-844c-3f9ea85842e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b35e5a77-99f7-4e60-a56f-071ce14c8db0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/Untitled Diagram.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/Lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/Lab1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/BookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/CircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/DogShelter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Hand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Head.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Leg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/out/production/Lab1/Tester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/src/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/src/DogShelter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/src/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IdeaProjects/untitled/src/Tester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPractice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/EmployeePosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/EmployeeHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/EmployeeSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/IdentityHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/IndifferentSelector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/Main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Lab9/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/TopManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaPractice/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Student/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Student/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Student/Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/EmployeeHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/EmployeeSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/IdentityHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/IndifferentSelector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab9/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.iml" beforeDir="false" />
     </list>
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +107,7 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectId" id="1iekt1bndeoAGjERknzbIL8IrPJ" />
+  <component name="ProjectId" id="1k1N2Y3V20WxCwkTi5kQTwgt01W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -76,48 +135,14 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f853eb8a-56d8-4fae-844c-3f9ea85842e9" name="Default Changelist" comment="" />
-      <created>1602275655697</created>
+      <changelist id="b35e5a77-99f7-4e60-a56f-071ce14c8db0" name="Default Changelist" comment="" />
+      <created>1604863931422</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602275655697</updated>
+      <updated>1604863931422</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-<<<<<<< Updated upstream
-=======
-    <option name="oldMeFiltersMigrated" value="true" />
->>>>>>> Stashed changes
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1358" height="168" key="GridCell.Tab.0.bottom" timestamp="1602277082678">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state width="1358" height="168" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1602277082678" />
-    <state width="1358" height="168" key="GridCell.Tab.0.center" timestamp="1602277082677">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state width="1358" height="168" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1602277082677" />
-    <state width="1358" height="168" key="GridCell.Tab.0.left" timestamp="1602277082677">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state width="1358" height="168" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1602277082677" />
-    <state width="1358" height="168" key="GridCell.Tab.0.right" timestamp="1602277082678">
-      <screen x="0" y="23" width="1440" height="801" />
-    </state>
-    <state width="1358" height="168" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1602277082678" />
   </component>
 </project>

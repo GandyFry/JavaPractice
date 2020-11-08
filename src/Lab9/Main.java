@@ -1,71 +1,77 @@
 package Lab9;
 
+import java.lang.reflect.Array;
+import java.util.*;
+
 public class Main {
-
     public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
 
-        Company company = new Company();
-        company.hire(new Employee(
-                "Salem","Adet",
-                "Mon, November 4, 1993",
-                "Ontario,St.1",
-                "976725748112",
-                123334));
-        company.hire(new Employee("Gerald",
-                "Trupper",
-                "Mon, September 15, 1980",
-                "Mexico, 12-s St.",
-                "56275134",
-                553561));
+        ArrayList<String> BeautifulAutoNumber = new ArrayList<>();
 
-        System.out.println("List of employees is processed using interfaces in separated classes");
+        char[] letter = {'A', 'B', 'E', 'K', 'M', 'H', 'O', 'P', 'C', 'T', 'Y', 'X'};
 
-
-        // I
-        // Обработка списка сотрудников с помощью классов,
-        // наследующих интерфейсы обработчика и селектора
-
-        IdentityHandler id = new IdentityHandler();
-        IndifferentSelector indif = new IndifferentSelector();
-
-        company.handleEmployee(indif,id);
-
-        System.out.println("List of employees is processed using anonymous classes");
-
-
-        // II
-        // Обработка списка сотрудников с помощью
-        // анонимных классов
-
-
-        // Обработчик ID handler.handleEmployee(x) = x
-        EmployeeHandler idHandler = new EmployeeHandler() {
-            @Override
-            public Employee handleEmployee(Employee employee) {
-                return employee;
+        long count = 0;
+        for (char X: letter){
+            for (int i = 0; i < 10; i++){
+                for (char Y: letter){
+                    for (char Z: letter){
+                        String N = String.valueOf(i);
+                        for (int R = 1; R < 10; R++) {
+                            BeautifulAutoNumber.add(X + N + N + N + Y + Z + "0" + String.valueOf(R));
+                            count++;
+                        }
+                        for (int R = 10; R < 200; R++){
+                            BeautifulAutoNumber.add(X + N + N + N + Y + Z + String.valueOf(R));
+                            count++;
+                        }
+                    }
+                }
             }
-        };
+        }
+        System.out.println("Кол-во красивых номерных знаков: " + count);
 
-        // Безразличный, нечувствительный селектор.
-        // indifSelector.need(x) = true
-        EmployeeSelector indifSelector = new EmployeeSelector() {
-            @Override
-            public boolean need(Employee employee) {
-                return true;
-            }
-        };
+        System.out.print("Введите номер:");
+        String number = in.next();
 
-        company.handleEmployee(indifSelector,idHandler);
+        System.out.print("Поиск перебором: ");
+        long start = System.nanoTime();
+        boolean isn = BeautifulAutoNumber.contains(number);
+        long end = System.nanoTime() - start;
+        if (isn)
+            System.out.println("Номер найден, поиск занял " + end + "нс");
+        else
+            System.out.println("Номер не найден, поиск занял " + end + "нс");
 
-        System.out.println("List of employees is processed using lambda expressions");
+        System.out.print("Бинарный поиск: ");
+        Collections.sort(BeautifulAutoNumber);
+        start = System.nanoTime();
+        int index = Collections.binarySearch(BeautifulAutoNumber, number);
+        end = System.nanoTime() - start;
+        if (index >= 0)
+            System.out.println("Номер найден, поиск занял " + end + "нс");
+        else
+            System.out.println("Номер не найден, поиск занял " + end + "нс");
 
+        System.out.print("Поиск в HashSet: ");
+        HashSet<String>  list = new HashSet<>(BeautifulAutoNumber);
+        start = System.nanoTime();
+        isn = list.contains(number);
+        end = System.nanoTime() - start;
+        if (isn)
+            System.out.println("Номер найден, поиск занял " + end + "нс");
+        else
+            System.out.println("Номер не найден, поиск занял " + end + "нс");
 
-        // III
-        // Обработка списка сотрудников с помощью
-        // Функциональных интерфейсов
-
-        company.handleEmployee(el->true, el->el);
+        System.out.print("Поиск в TreeSet: ");
+        TreeSet<String> treeList = new TreeSet<>(BeautifulAutoNumber);
+        start = System.nanoTime();
+        isn = treeList.contains(number);
+        end = System.nanoTime() - start;
+        if (isn)
+            System.out.println("Номер найден, поиск занял " + end + "нс");
+        else
+            System.out.println("Номер не найден, поиск занял " + end + "нс");
 
     }
-
 }
